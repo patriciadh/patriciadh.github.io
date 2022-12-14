@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+
+body{
+     font-family: 'Lato', sans-serif;
+     font-size: 1.8rem;
+}
+
+.page-navbar.navbar{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-navbar .navbar-nav .nav-item a{
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.page-navbar.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-align: left;
+}
+
+.page .cv-block{
+    box-shadow: 0px 3px 20px black;
+}
+
+.page-navbar.brand .logo {
+    margin-left: 0px;
+}
+
+.page-navbar .logo{
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.page-navbar.fixed-top + .page{
+    padding-top: 62px;
+}
+
+.gradient{
+    background: linear-gradient(120deg, #7f70f5, #e0a245);
+    color: #fff !important;
+}
+
+.cv-block{
+    padding-bottom: 60px;
+    max-width: 1150px;
+    margin: auto;
+    border-top: 1.5px solid rgb(29, 28, 28);
+    padding-top: 60px;
+}
+
+.cv-block.info{
+    text-align: center;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.cv-block.info{
+    max-width: 1150px;
+    margin: auto;
+}
+
+.cv-block.sobreMi{
+    max-width: 1150px;
+    margin: auto;
+    color: #000000;
+}
+
+.cv-block.info p{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+ /* Tamaño botón descargar cv */
+.cv-block.info .btn {
+  padding: 0.375rem 1rem;
+  border-radius: 2em;
+ }
+
+.cv-block.info .infoPersonal{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.btn-outline-primary{
+    color: #fff;
+    background-color: #5378dd;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+
+.btn-outline-primary:hover{
+    background-color: #110f81;
+}
+
+.accesoRep{
+    color: #fff;
+    background-color: #5378dd;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 24px;
+    border-radius: 40px;
+    margin-left: 25rem;
+}
+
+.accesoRep:hover{
+    background-color: #110f81;
+}
+
+ /* Propiedades imagen */
+.cv-block.info .foto{
+    width: 230px;
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 500px;
+    margin-bottom: 30px;
+}
+
+ /* Espacio antes de los proyectos */
+.cv-block.info{
+    padding-top: 70px;
+}
+
+.cv-block.info h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cv-block.info h4{
+    font-size: 1.4rem;
+}
+
+ /* Margenes laterales */
+.cv-block.info .group{
+    max-width: 1150px;
+    margin: auto;
+}
+
+.cv-block.info .group:not(:first-child){
+    margin-top: 50px;
+}
+
+/* Propiedades fecha */
+.cv-block.info .group .period{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 4px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+ /* Propiedades de cada uno de los recuadros de los proyectos */
+.cv-block.info .group .organization{
+    font-size: 0.85em;
+    background-color: #cd66e2;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 7em;
+}
+
+.cv-block.info .educacion.group .organization{
+    background-color: #da9e2f; 
+}
+
+ /* Espacio entre proyectos */
+.cv-block.info .group .item{
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(125, 70, 150);
+    border-top: 3px solid rgb(125, 70, 150);
+}
+
+/* Espacio entre el título y los proyectos, barra */
+.cv-block.info .proyectos.group .item{
+    padding-top: 30px;
+    border-top: 3px solid rgb(125, 70, 150);
+}
+
+.cv-block.info .educacion.group .item{
+    padding-top: 30px;
+    border-top: 3px solid rgb(216, 137, 46);
+}
+
+.cv-block.info .educacion.group .item{
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(216, 137, 46);
+    border-top: 3px solid rgb(216, 137, 46);
+}
+
+.cv-block.info .group .item .row{
+    margin-bottom: 2px;
+}
+
+.cv-block .proyectos{
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.cv-block .educacion{
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.cv-block .educacion.group .item{
+    padding: 40px;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.075);
+    height: 100%;
+}
+
+.cv-block .proyectos.group .item{
+    padding: 40px;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.075);
+    height: 100%;
+}
+
+.cv-block.info .proyectos h4,
+.cv-block.info .educacion h3{
+    font-weight: bold;
+}
+
+/* Espacio entre los proyectos y la caja de información */
+.cv-block .info-card{
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.075);
+    height: 100%;
+}
+
+/* Espacios y tamaño en la información de skills */
+.cv-block .info-card h2{
+    margin-top: 0;
+    margin-bottom: 20px !important;
+    font-size: 1.5rem;
+}
+
+.cv-block .info-card.informacion{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.cv-block .info-card.lenguajes h4{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cv-block .info-card.desarrolloWeb h4{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cv-block .info-card.teamwork-skills h4{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cv-block .info-card.programas h4{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cv-block .info-card.bbdd h4{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cv-block .info-card.modelado h4{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cv-block .info-card.infoContacto{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.cv-block .info-card.rrss{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.cv-block .info-card.lenguajes .progress{
+    height: 6px;
+}
+
+.cv-block .info-card.desarrolloWeb .progress{
+    height: 6px;
+}
+
+.cv-block .info-card.teamwork-skills .progress{
+    height: 6px;
+}
+
+.cv-block .info-card.programas .progress{
+    height: 6px;
+}
+
+.cv-block .info-card.bbdd .progress{
+    height: 6px;
+}
+
+.cv-block .info-card.modelado .progress{
+    height: 6px;
+}
+
+.cv-block .info-card.infoContacto .icon{
+    font-size: 1.3em;
+    color: #757474;
+    position: relative;
+    bottom: 4px;
+}
+
+.cv-block .info-card.rrss .icon{
+    font-size: 1.3em;
+    color: #757474;
+    position: relative;
+    bottom: 4px;
+}
+
+.cv-block.info .sobreMi p{
+    font-size: 1em;
+}
+
+.cv-block.info .contacto p{
+    text-align: left;
+    max-width: 1000px;
+    font-size: 1em;
+}
+
+.cv-block {
+    background-color: rgb(148, 130, 27);
+}
+
+/* Espacio hasta del final de la página */
+.page-footer{
+    padding-top: 20px;
+    border-top: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    max-width: 1000px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.page-footer a{
+    display: inline-block;
+    margin: 0px 10px;
+    color: #282b2d;
+    font-size: 20px;
+}
+
+.page-footer .links{
+    display: inline-block;
+}
+
+.page-footer .social-icons{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/* Propiedades iconos redes sociales */
+.page-footer .social-icons a{
+    font-size: 35px;
+    margin: 0 3px;
+    color: #ffffff;
+    border: 2px solid;
+    opacity: 0.6;
+    border-radius: 70%;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    background-color: #6e23ac;
+    line-height: 45px;
+}
+
+.page-footer .social-icons a:hover{
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+
+    .cv-block {
+        padding-bottom: 50px;
+        padding-top: 120px; 
+    }
+
+    .cv-block.info .group .period {
+        float: left; 
+    }
+}
+
+@media (min-width: 576px){
+    .navbar {
+        padding-top: 1.1rem;
+        padding-bottom: 1.1rem;
+    }
+
+    .portfolio-navbar.fixed-top + .page{
+        padding-top: 5rem;
+    }
+}
