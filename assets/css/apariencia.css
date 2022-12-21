@@ -117,8 +117,8 @@ body{
  /* Propiedades imagen */
 .cv-block.info .foto{
     margin: auto;
-    width: 230px;
-    height: 230px;
+    width: 270px;
+    height: 270px;
     background-size: cover;
     border-radius: 500px;
     margin-bottom: 30px;
